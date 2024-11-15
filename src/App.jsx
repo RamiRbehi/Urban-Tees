@@ -70,7 +70,7 @@ function App() {
 
             <main className="container mx-auto px-4 py-8">
               <Routes>
-                <Route path="/Urban-Tees" element={<HomePage />} />
+                <Route path="/" element={<HomePage />} />
                 <Route path="/product/:id" element={<ProductPage />} />
                 <Route path="/checkout" element={<CheckoutPage />} />
               </Routes>
