@@ -25,7 +25,7 @@ function App() {
               <div className="container mx-auto px-4 py-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4">
-                    <a href="/" className="text-2xl font-bold text-gray-900">
+                    <a href="/Urban-Tees" className="text-2xl font-bold text-gray-900">
                       Urban Tees
                     </a>
                     <TestersInfo />
@@ -70,7 +70,7 @@ function App() {
 
             <main className="container mx-auto px-4 py-8">
               <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/Urban-Tees" element={<HomePage />} />
                 <Route path="/product/:id" element={<ProductPage />} />
                 <Route path="/checkout" element={<CheckoutPage />} />
               </Routes>
